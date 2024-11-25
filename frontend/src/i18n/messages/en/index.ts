@@ -1,3 +1,5 @@
+import { sign } from "crypto";
+
 export const messages = {
   Beta_alert: {
     alert_title:
@@ -419,6 +421,7 @@ export const messages = {
     nav_menu_toggle: "Menu",
     nav_link_search: "Search",
     title: "Simpler.Grants.gov",
+    sign_in: "Sign in",
   },
   Hero: {
     title: "We're building a simpler Grants.gov!",

@@ -15,6 +15,8 @@ import {
   Header as USWDSHeader,
 } from "@trussworks/react-uswds";
 
+import AuthDropdown from "./AuthDropdown";
+
 type PrimaryLink = {
   text?: string;
   href?: string;
@@ -187,6 +189,7 @@ const Header = ({ logoPath, locale }: Props) => {
             mobileExpanded={isMobileNavExpanded}
             onToggleMobileNav={handleMobileNavToggle}
           />
+          <AuthDropdown />
         </div>
       </USWDSHeader>
     </>
